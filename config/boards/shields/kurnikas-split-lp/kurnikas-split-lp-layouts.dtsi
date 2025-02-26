@@ -1,12 +1,12 @@
 #include <physical_layouts.dtsi>
 
 / {
-    physical_layout_0: physical_layout_0 {
+    ec11_encoder_layout: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "With EC11 encoder";
 
         kscan = <&kscan0>;
-        transform = <&keymap_transform0>;
+        transform = <&keymap_transform_0>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   56       0     0     0>
@@ -82,7 +82,7 @@
         display-name = "With EC12 encoder";
 
         kscan = <&kscan0>;
-        transform = <&keymap_transform1>;
+        transform = <&keymap_transform_1>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   56       0     0     0>
