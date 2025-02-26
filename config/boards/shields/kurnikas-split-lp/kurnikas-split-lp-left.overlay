@@ -1,4 +1,4 @@
-#include "kurnikas-split-lp.dtsi" // The shared dtsi file is included in the overlay
+#include "kurnikas-split-lp.dtsi"
 
 // Label of the kscan node in the dtsi
 &kscan0 {

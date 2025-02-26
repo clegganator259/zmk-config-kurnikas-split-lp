@@ -4,7 +4,6 @@ name: Kurnikas Split LP
 type: shield
 url: https://github.com/clegganator259/kurnikas-split-lp/
 requires: [pro_micro]
-exposes: [i2c_oled]
 features:
   - keys
   - encoder
