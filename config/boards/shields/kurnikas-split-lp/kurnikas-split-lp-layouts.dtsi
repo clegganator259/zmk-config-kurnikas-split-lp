@@ -6,7 +6,7 @@
         display-name = "With EC11 encoder";
 
         kscan = <&kscan0>;
-        transform = <&keymap_transform_0>;
+        transform = <&ec11_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   56       0     0     0>
@@ -82,7 +82,7 @@
         display-name = "With EC12 encoder";
 
         kscan = <&kscan0>;
-        transform = <&keymap_transform_1>;
+        transform = <&default_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   56       0     0     0>
