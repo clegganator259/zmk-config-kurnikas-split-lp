@@ -1,6 +1,6 @@
 file_format: "1"
 id: kurnikas-split-lp
-name: Kurnikas Split LP
+name: KurnikasLP
 type: shield
 url: https://github.com/clegganator259/kurnikas-split-lp/
 requires: [pro_micro]
