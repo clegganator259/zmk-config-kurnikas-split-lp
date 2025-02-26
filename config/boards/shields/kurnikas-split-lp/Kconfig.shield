@@ -1,5 +1,5 @@
 config SHIELD_KURNIKAS_SPLIT_LP_LEFT
-    def_bool $(shield_list_contains,kurnikas-split-lp-left)
+    def_bool $(shields_list_contains,kurnikas-split-lp-left)
 
 config SHIELD_KURNIKAS_SPLIT_LP_RIGHT
-    def_bool $(shield_list_contains,kurnikas-split-lp-right)
+    def_bool $(shields_list_contains,kurnikas-split-lp-right)
