@@ -44,7 +44,7 @@
 };
 / {
     chosen {
-        zmk,physical-layout = &physical_layout1;
+        zmk,physical-layout = &physical_layout_1;
         zmk,kscan = &kscan0;
         // Other chosen items
     };
