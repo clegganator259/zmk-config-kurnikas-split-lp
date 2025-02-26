@@ -1,8 +1,8 @@
 #include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your dtsi
-#include <kurnikas-split-lp-layouts.dtsi>
+//#include <kurnikas-split-lp-layouts.dtsi>
 
 / {
-    kscan0: kscan0 {
+    kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
         wakeup-source;
@@ -42,7 +42,7 @@
         >;
     };
     chosen {
-        zmk,physical-layout = &physical_layout_1;
+        //zmk,physical-layout = &physical_layout_1;
         zmk,kscan = &kscan0;
         // Other chosen items
     };
