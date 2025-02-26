@@ -77,7 +77,7 @@
             , <&key_physical_attrs 100 100 1548  504       0     0     0>
             ;
     };
-    physical_layout_1: physical_layout_1 {
+    ec12_layout: physical_layout_1 {
         compatible = "zmk,physical-layout";
         display-name = "With EC12 encoder";
 
