@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    physical_layout0: physical_layout_0 {
+    physical_layout_0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "With EC11 encoder";
 
@@ -77,7 +77,7 @@
             , <&key_physical_attrs 100 100 1548  504       0     0     0>
             ;
     };
-    physical_layout1: physical_layout_1 {
+    physical_layout_1: physical_layout_1 {
         compatible = "zmk,physical-layout";
         display-name = "With EC12 encoder";
 
