@@ -8,11 +8,11 @@
         wakeup-source;
 
         row-gpios
-            = <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            = <&nrf52840 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&nrf52840 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&nrf52840 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&nrf52840 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&nrf52840 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
     default_transform: keymap_transform_0 {
