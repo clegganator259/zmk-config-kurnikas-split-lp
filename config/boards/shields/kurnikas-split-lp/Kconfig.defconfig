@@ -14,6 +14,13 @@ config ZMK_SPLIT
     default y
 endif
 
+if SHIELD_KURNIKAS_SPLIT_LP_LEFT_PERIPHERAL
+
+config ZMK_SPLIT
+    default y
+endif
+
+
 if SHIELD_KURNIKAS_SPLIT_LP_DONGLE
 
 # Max 16 characters in keyboard name
@@ -29,7 +36,7 @@ config ZMK_SPLIT
 # Set this to the number of peripherals your dongle will have.
 # For a unibody, this would be 1. If you have left and right halves, set it to 2, etc.
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-    default 1
+    default 2
 
 # Set this to ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS + your desired number of BT profiles (default is 5)
 config BT_MAX_CONN
