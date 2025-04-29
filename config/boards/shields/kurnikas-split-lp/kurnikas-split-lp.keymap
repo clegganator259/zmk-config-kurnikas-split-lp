@@ -1,4 +1,4 @@
-#include <behaviorsjdtsi>
+#include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #define BASE 0
 #define NUMBERS 1
