@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    ec11_encoder_layout: physical_layout_0 {
+    ec11_layout: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "With EC11 encoder";
 
