@@ -8,6 +8,6 @@ features:
   - keys
   - encoder
 siblings:
-  - kurnikas-split-lp-left
+  - kurnikas-split-lp-left-central
   - kurnikas-split-lp-right
 
