@@ -40,7 +40,7 @@
         >;
     };
     chosen {
-        zmk,physical-layout = &ec12_layout;
+        zmk,physical-layout = &ec11_layout;
         zmk,kscan = &kscan0;
         // Other chosen items
     };
