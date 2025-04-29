@@ -1,7 +1,8 @@
 #include <behaviorsjdtsi>
 #include <dt-bindings/zmk/keys.h>
-#define NUMBERS
-#define FUNCTIONS
+#define BASE 0
+#define NUMBERS 1
+#define FUNCTIONS 2
 
 / {
     keymap {
