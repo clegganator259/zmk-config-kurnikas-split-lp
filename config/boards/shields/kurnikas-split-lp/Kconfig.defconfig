@@ -1,4 +1,4 @@
-if SHIELD_KURNIKAS_SPLIT_LP_LEFT_CENTRAL
+if SHIELD_KURNIKAS_SPLIT_LP_LEFT_CENTRAL || SHIELD_KURNIKAS_SPLIT_LP_DONGLE
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
@@ -6,32 +6,10 @@ config ZMK_KEYBOARD_NAME
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
-endif
-
-if SHIELD_KURNIKAS_SPLIT_LP_LEFT_CENTRAL ||SHIELD_KURNIKAS_SPLIT_LP_RIGHT
 
 config ZMK_SPLIT
     default y
 endif
-
-if SHIELD_KURNIKAS_SPLIT_LP_LEFT_PERIPHERAL
-
-config ZMK_SPLIT
-    default y
-endif
-
-
-if SHIELD_KURNIKAS_SPLIT_LP_DONGLE
-
-# Max 16 characters in keyboard name
-config ZMK_KEYBOARD_NAME
-    default "KurnikasLP"
-
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-config ZMK_SPLIT
-    default y
 
 # Set this to the number of peripherals your dongle will have.
 # For a unibody, this would be 1. If you have left and right halves, set it to 2, etc.
@@ -47,3 +25,25 @@ config BT_MAX_PAIRED
     default 6
 
 endif
+
+
+if SHIELD_KURNIKAS_SPLIT_LP_LEFT_CENTRAL ||SHIELD_KURNIKAS_SPLIT_LP_RIGHT || SHIELD_KURNIKAS_SPLIT_LP_LEFT_PERIPHERAL
+
+config ZMK_SPLIT
+    default y
+endif
+
+if SHIELD_KURNIKAS_SPLIT_LP_LEFT_PERIPHERAL
+
+config ZMK_SPLIT
+    default y
+endif
+
+
+if SHIELD_KURNIKAS_SPLIT_LP_DONGLE
+config ZMK_BLE
+    default y
+
+config ZMK_USB
+    default y
+

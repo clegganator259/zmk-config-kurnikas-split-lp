@@ -5,7 +5,7 @@
         compatible = "zmk,physical-layout";
         display-name = "With EC11 encoder";
 
-        transform = <&ec11_transform>;
+        transform = <&default_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   56       0     0     0>
