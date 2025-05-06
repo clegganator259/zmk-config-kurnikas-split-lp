@@ -24,7 +24,7 @@
             bindings = <
                 &kp PIPE2 &kp F1    &kp F2    &kp F3      &kp F4      &kp F5                                  &kp F6           &kp F7     &kp F8      &kp F9        &kp F10        &none 
                 &none     &none     &kp UP    &none       &kp LBKT    &kp RBKT                                &kp KP_ASTERISK  &kp KP_N7  &kp KP_N8   &kp KP_N9     &kp KP_PLUS    &none 
-                &none     &kp LEFT  &kp DOWN  &kp RIGHT   &kp LBRC    &kp LBRC     &none            &kp C_PP  &kp KP_SLASH     &kp KP_N4  &kp KP_N5   &kp KP_N6     &kp KP_MINUS   &none 
+                &none     &kp LEFT  &kp DOWN  &kp RIGHT   &kp LBRC    &kp RBRC     &none            &kp C_PP  &kp KP_SLASH     &kp KP_N4  &kp KP_N5   &kp KP_N6     &kp KP_MINUS   &none 
                 &none     &none     &none     &none       &none       &none        &mo 3            &mo 3     &kp KP_DOT       &kp KP_N1  &kp KP_N2   &kp KP_N3     &kp KP_EQUAL   &none 
                 &none     &none     &none     &none       &none       &trans       &trans           &mo 3     &trans           &kp KP_N0  &kp KP_DOT  &kp KP_COMMA  &none          &none 
             >;
