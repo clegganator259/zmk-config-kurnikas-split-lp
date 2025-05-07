@@ -23,7 +23,6 @@
     };
     chosen {
         zmk,kscan = &mock_kscan;
-        zmk,physical-layout = &ec11_layout;
     };
 };
 
