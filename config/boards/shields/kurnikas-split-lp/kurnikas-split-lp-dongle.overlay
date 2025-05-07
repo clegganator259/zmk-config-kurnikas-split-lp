@@ -2,6 +2,7 @@
 #include "kurnikas-split-lp-layouts.dtsi"
 
 / {
+
     mock_kscan: mock_kscan_0 {
         compatible = "zmk,kscan-mock";
         columns = <0>;
@@ -21,28 +22,7 @@
         >;
     };
     chosen {
-        zmk,physical-layout = &ec11_layout;
         zmk,kscan = &mock_kscan;
-        // Other chosen items
-    };
-    left_encoder: encoder_left {
-        compatible = "alps,ec11";
-        a-gpios = <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <30>;
-        status = "disabled";
-    };
-
-    right_encoder: encoder_right {
-        compatible = "alps,ec11";
-        a-gpios = <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <30>;
-        status = "disabled";
-    };
-    sensors: sensors {
-        compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder &right_encoder>;
-        triggers-per-rotation = <15>;
+        zmk,physical-layout = &ec11_layout;
     };
 };
