@@ -8,5 +8,5 @@ config SHIELD_KURNIKAS_SPLIT_LP_RIGHT
     def_bool $(shields_list_contains,kurnikas-split-lp-right)
 
 config SHIELD_KURNIKAS_SPLIT_LP_DONGLE
-    def_bool $(shields_list_contains,kurnikas-spli-lp-dongle)
+    def_bool $(shields_list_contains,kurnikas-split-lp-dongle)
 
