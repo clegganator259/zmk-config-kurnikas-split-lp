@@ -8,7 +8,7 @@ features:
   - keys
   - encoder
 siblings:
-  - kurnikas-split-lp-left-central
+  - kurnikas-split-lp-left-peripheral
   - kurnikas-split-lp-right
   - kurnikas-split-lp-dongle
 

@@ -1,6 +1,10 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "kurnikas-split-lp-layouts.dtsi"
 
+&ec11_layout {
+    transform = <&default_transform>;
+};
+
 / {
 
     mock_kscan: mock_kscan_0 {
