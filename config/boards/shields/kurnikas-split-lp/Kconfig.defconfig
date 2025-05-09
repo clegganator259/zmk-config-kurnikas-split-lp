@@ -29,6 +29,8 @@ if SHIELD_KURNIKAS_SPLIT_LP_DONGLE
 # For a unibody, this would be 1. If you have left and right halves, set it to 2, etc.
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
     default 2
+config BUILD_OUTPUT_UF2
+    default y
 config ZMK_USB
     default y
 endif
