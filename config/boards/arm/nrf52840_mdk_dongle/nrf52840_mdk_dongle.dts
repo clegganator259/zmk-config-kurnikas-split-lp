@@ -99,7 +99,7 @@
 	scl-pin = <21>;
 };
 
-&flash@0 {
+&flash0 {
 	/*
 	 * For more information, see:
 	 * http://docs.zephyrproject.org/latest/devices/dts/flash_partitions.html
