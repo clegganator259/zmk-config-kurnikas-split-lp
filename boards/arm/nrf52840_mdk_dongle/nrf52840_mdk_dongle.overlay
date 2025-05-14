@@ -5,46 +5,6 @@
  */
 
 
-&adc {
-	status = "okay";
-};
-
-&gpiote {
-	status = "okay";
-};
-
-&gpio0 {
-	status = "okay";
-};
-
-&gpio1 {
-	status = "okay";
-};
-
-&uart0 {
-	compatible = "nordic,nrf-uart";
-	current-speed = <115200>;
-	status = "okay";
-	tx-pin = <20>;
-	rx-pin = <19>;
-	rts-pin = <2>;
-	cts-pin = <3>;
-};
-
-&i2c0 {
-	compatible = "nordic,nrf-twi";
-	status = "okay";
-	sda-pin = <6>;
-	scl-pin = <7>;
-};
-
-&i2c1 {
-	compatible = "nordic,nrf-twi";
-	status = "okay";
-	sda-pin = <8>;
-	scl-pin = <21>;
-};
-
 &flash0 {
 	/*
 	 * For more information, see:
@@ -83,9 +43,4 @@
 			reg = <0x000f4000 0x0000c000>;
 		};
 	};
-};
-
-&usbd {
-	compatible = "nordic,nrf-usbd";
-	status = "okay";
 };
